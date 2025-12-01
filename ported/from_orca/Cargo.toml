@@ -1,0 +1,15 @@
+[package]
+name = "ported_from_orca"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "ported_from_orca"
+
+[dependencies]
+thiserror = { workspace = true }
+uint = {version = "0.9.1", default-features = false}
+
+[dev-dependencies]
+proptest = "1.0"

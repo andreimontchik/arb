@@ -1,0 +1,21 @@
+{
+  "processor": "/home/andrei/work/src/research/config/mainnet/arbitrage_controller.local.json",
+  "tokens": "/home/andrei/work/src/research/config/mainnet/tokens.json",
+  "token_accounts": "/home/andrei/work/src/research/config/mainnet/token_accounts.json",
+  "token_funding": [
+    {
+      "code": "wSOL",
+      "amount": 10.0
+    },
+    {
+      "code": "USDC",
+      "amount": 1000.0
+    },
+    {
+      "code": "USDT",
+      "amount": 1000.0
+    }
+  ],
+  "orca": "/home/andrei/work/src/research/config/mainnet/orca.json",
+  "raydium": "/home/andrei/work/src/research/config/mainnet/raydium.json"
+}

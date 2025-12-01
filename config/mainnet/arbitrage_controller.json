@@ -1,0 +1,13 @@
+{
+    "total_arb_iterations": 100,
+    "min_base_swap_amount": 1,
+    "min_quote_margin": 0.1,
+    "executor": {
+        "file_name": "/dev/shm/arb_msg.mmap"
+    },
+    "metrics": {
+        "host": "76.16.6.193",
+        "port": 18125,
+        "prefix": "plugin"
+    }
+}

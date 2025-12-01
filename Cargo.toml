@@ -1,0 +1,41 @@
+[workspace]
+resolver = "2"
+
+members = [
+    "idl_generator/stubs/whirlpool_interface", 
+    "idl_generator/stubs/raydium_amm_interface", 
+    "ported/from_orca",
+    "ported/from_raydium",
+    "common",
+    "plugin", 
+    "trader",
+    "tools/replayer",
+    "tools/converter",
+    "tools/publisher"]
+
+[workspace.dependencies]
+solana-sdk = { version = "=1.18.25" }
+solana-logger = { version = "=1.18.25" }
+solana-geyser-plugin-interface = { version = "=1.18.25" } 
+solana-program = { version = "=1.18.25" }
+solana-rpc-client = { version = "=1.18.25" }
+solana-client = { version = "=1.18.25" }
+spl-token = { version = "4.0.0" }
+tempfile = "3"
+log = "0.4"
+env_logger = "0.11"
+serde = "1.0.145"
+serde_json = "1.0.85"
+serde_derive = "1.0.145"
+thiserror = "1.0.37"
+anyhow = { version = "1.0"}
+bigdecimal = "0.4"
+chrono = "0.4"
+rand = "0.8.5"
+borsh = "^0.10"
+memmap2 = "0.9.4"
+signal-hook = "0.3"
+ctrlc = "3"
+helius = "0.2.0"
+cadence = "1.4.0"
+tokio = { version = "1.37.0", features = ["macros", "rt-multi-thread", "net"] }

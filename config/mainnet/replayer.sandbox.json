@@ -1,0 +1,22 @@
+{
+  "processor": "/home/sol/work/src/research/config/mainnet/arbitrage_controller.sandbox.json",
+  "tokens": "/home/sol/work/src/research/config/mainnet/tokens.json",
+  "token_accounts": "/home/sol/work/src/research/config/mainnet/token_accounts.json",
+  "token_funding": [
+    {
+      "code": "wSOL",
+      "amount": 0.0
+    },
+    {
+      "code": "USDC",
+      "amount": 0.0
+    },
+    {
+      "code": "USDT",
+      "amount": 0.0
+    }
+  ],
+  "orca": "/home/sol/work/src/research/config/mainnet/orca.json",
+  "raydium": "/home/sol/work/src/research/config/mainnet/raydium.json",
+  "messages": "/home/sol/work/data/mainnet/630/messages.???"
+}

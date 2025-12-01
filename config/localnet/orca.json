@@ -1,0 +1,15 @@
+{
+  "whirlpool_program_id": "",
+  "whirlpools": [
+    {
+      "enabled": false,
+      "liquidity_group": "SOL_USD",
+      "pubkey": "SysvarS1otHashes111111111111111111111111111",
+      "token_a": "wSOL",
+      "min_token_a_balance": 1.0,
+      "token_b": "USDC",
+      "min_token_b_balance": 0.01,
+      "tick": 2
+    }
+  ]
+}

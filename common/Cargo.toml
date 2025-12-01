@@ -1,0 +1,29 @@
+[package]
+name = "common"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "common"
+
+[dependencies]
+solana-sdk = { workspace = true }
+spl-token = { workspace = true }
+thiserror = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+serde_derive = { workspace = true }
+anyhow = { workspace = true }
+cadence = { workspace = true }
+log = { workspace = true }
+whirlpool_interface = {path = "../idl_generator/stubs/whirlpool_interface"}
+raydium_amm_interface = {path = "../idl_generator/stubs/raydium_amm_interface"}
+ported_from_orca = {path = "../ported/from_orca"}
+ported_from_raydium = {path = "../ported/from_raydium"}
+
+[dev-dependencies]
+tempfile = { workspace = true }
+rand = {workspace = true}

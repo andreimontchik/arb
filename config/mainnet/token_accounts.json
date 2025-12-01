@@ -1,0 +1,17 @@
+[
+    {
+        "code": "wSOL",
+        "address": "4DTFpC8hvEx5vC82HUztJdtU62DmiekB8VHGD7HT6Jwy",
+        "min_amount": 0.01
+    },
+    {
+        "code": "USDC",
+        "address": "42TPy9VYv5Wxnv7wsTuE6SjoZcio1fW7uSaiUEyhtXo7",
+        "min_amount": 1
+    },
+    {
+        "code": "USDT",
+        "address": "8RSpRBMawCNHF2L9dRT4o6htsgtAeSJjg8PPWSjY7kHL",
+        "min_amount": 1
+    }
+]

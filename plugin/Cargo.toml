@@ -1,0 +1,34 @@
+[package]
+name = "plugin"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "plugin"
+
+[dependencies]
+solana-sdk = { workspace = true }
+solana-logger = { workspace = true }
+solana-geyser-plugin-interface = { workspace = true }
+spl-token = { workspace = true }
+log = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+serde_derive = { workspace = true }
+thiserror = { workspace = true }
+bigdecimal = { workspace = true }
+chrono = {workspace = true}
+borsh = {workspace = true}
+anyhow = {workspace = true}
+memmap2 = { workspace = true }
+common = {path = "../common"}
+whirlpool_interface = {path = "../idl_generator/stubs/whirlpool_interface"}
+raydium_amm_interface = {path = "../idl_generator/stubs/raydium_amm_interface"}
+ported_from_orca = {path = "../ported/from_orca"}
+ported_from_raydium = {path = "../ported/from_raydium"}
+
+[dev-dependencies]
+tempfile = { workspace = true }

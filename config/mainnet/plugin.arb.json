@@ -1,0 +1,8 @@
+{
+  "libpath": "/home/sol/src/research/target/debug/libplugin.so",
+  "processor": "/home/sol/src/research/config/mainnet/arbitrage_controller.json",
+  "tokens": "/home/sol/src/research/config/mainnet/tokens.json",
+  "token_accounts": "/home/sol/src/research/config/mainnet/token_accounts.json",
+  "orca": "/home/sol/src/research/config/mainnet/orca.json",
+  "raydium": "/home/sol/src/research/config/mainnet/raydium.json"
+}

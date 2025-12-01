@@ -1,0 +1,16 @@
+{
+  "amm_pool_program_id": "11111111111111111111111111111111",
+  "amm_pools": [
+    {
+      "enabled": true,
+      "liquidity_group": "SOL_USD",
+      "address": "SysvarC1ock11111111111111111111111111111111",
+      "authority": "",
+      "program_id": "",
+      "base_token": "wSOL",
+      "base_token_vault": "1111111QLbz7JHiBTspS962RLKV8GndWFwiEaqKM",
+      "quote_token": "USDC",
+      "quote_token_vault": "11111188eT5CdRAtTMhiaL4AHQdVtok1ZrhqkfN9V"
+    }
+  ]
+}

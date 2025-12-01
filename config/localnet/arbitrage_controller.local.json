@@ -1,0 +1,7 @@
+{
+    "price_spread_threshold": 0.20,
+    "min_quote_margin": 1,
+    "executor": {
+        "file_name": "/home/andrei/work/data/localnet/arb"
+    }
+}

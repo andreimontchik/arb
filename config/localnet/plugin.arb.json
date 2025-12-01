@@ -1,0 +1,8 @@
+{
+  "libpath": "/home/andrei/work/src/research/target/debug/libplugin.so",
+  "processor": "/home/andrei/work/src/research/config/mainnet/arbitrage_controller.local.json",
+  "tokens": "/home/andrei/work/src/research/config/mainnet/tokens.json",
+  "token_accounts": "/home/andrei/work/src/research/config/mainnet/token_accounts.json",
+  "orca": "/home/andrei/work/src/research/config/mainnet/orca.json",
+  "raydium": "/home/andrei/work/src/research/config/mainnet/raydium.json"
+}

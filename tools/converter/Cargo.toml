@@ -1,0 +1,16 @@
+[package]
+name = "converter"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+log = { workspace = true }
+env_logger = { workspace = true }
+chrono = { workspace = true }
+common = {path = "../../common"}
+
+[[bin]]
+name = "converter"
+path = "src/main.rs"

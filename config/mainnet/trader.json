@@ -1,0 +1,30 @@
+{
+    "context": {
+        "spl_token_program_id": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+        "arb_cu_limit": 75000,
+        "swap_cu_limit": 40000,
+        "min_cu_price": 500000,
+        "max_cu_price": 1000000,
+        "update_period_sec": 5
+    },
+    "receiver": {
+        "file_name": "/dev/shm/arb_msg.mmap"
+    },
+    "receiver_create_interval_sec": 1,
+    "receiver_sleep_interval_us": 1000,
+    "tokens": "/home/sol/src/research/config/mainnet/tokens.json",
+    "wallet": "/home/sol/src/research/config/mainnet/arb_wallet.json",
+    "raydium": "/home/sol/src/research/config/mainnet/raydium.json",
+    "gateway": {
+        "api_key": "640bbf81-f665-4d01-84a8-180f1438a255",
+        "cluster": "mainnet",
+        "txn_skip_preflight": true,
+        "txn_max_retries": 1
+    },
+    "metrics": {
+        "host": "76.16.6.193",
+        "port": 18125,
+        "prefix": "trader"
+    },
+    "simulation": false
+}

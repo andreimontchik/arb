@@ -1,0 +1,62 @@
+{
+  "amm_program_id": "675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8",
+  "authority": "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1",
+  "min_base_token_balance": 0.1,
+  "min_quote_token_balance": 15,
+  "amm_pools": [
+    {
+      "enabled": true,
+      "liquidity_group": "SOL_USD",
+      "address": "58oQChx4yWmvKdwLLZzBi4ChoCc2fqCUWBkwMihLYQo2",
+      "base_token": "wSOL",
+      "base_token_vault": "DQyrAcCrDXQ7NeoqGgDCZwBvWDcYmFCjSb9JtteuvPpz",
+      "quote_token": "USDC",
+      "quote_token_vault": "HLmqeL62xR1QoZ1HKKbXRrdN1p3phKpxRMb2VVopvBBz"
+    },
+    {
+      "enabled": true,
+      "liquidity_group": "SOL_USD",
+      "address": "7XawhbbxtsRcQA8KTkHT9f9nc6d69UwqCDh6U5EEbEmX",
+      "base_token": "wSOL",
+      "base_token_vault": "876Z9waBygfzUrwwKFfnRcc7cfY4EQf6Kz1w7GRgbVYW",
+      "quote_token": "USDT",
+      "quote_token_vault": "CB86HtaqpXbNWbq67L18y5x2RhqoJ6smb7xHUcyWdQAQ"
+    },
+    {
+      "enabled": true,
+      "liquidity_group": "SOL_USD",
+      "address": "5oAvct85WyF7Sj73VYHbyFJkdRJ28D8m4z4Sxjvzuc6n",
+      "base_token": "wSOL",
+      "base_token_vault": "FzNRkDo1o1oeBud2J9Rz66FqQCyxjpmxcao4iFsewEGa",
+      "quote_token": "USDC",
+      "quote_token_vault": "tAoQ7jLRJdtrw1vhZzoCHxHfsWp3cdn9SqnPvP1LVMT"
+    },
+    {
+      "enabled": true,
+      "liquidity_group": "SOL_USD",
+      "address": "61acRgpURKTU8LKPJKs6WQa18KzD9ogavXzjxfD84KLu",
+      "base_token": "wSOL",
+      "base_token_vault": "5TNqqz6AtgJtabKjivHcQq7oH7by3EaTGWuAs8VevJNt",
+      "quote_token": "USDC",
+      "quote_token_vault": "ND3X3UpMaB1nze61QjS7LvDk1K3syFtkWMNY5nUc7kB"
+    },
+    {
+      "enabled": true,
+      "liquidity_group": "SOL_USD",
+      "address": "FyqYBBJ8vhr5AtDZiyJue4Khx9Be6Xijx5nm6aL6wZZV",
+      "base_token": "wSOL",
+      "base_token_vault": "79uBcM1XJWY7NT1UfydKH2jM7nepWSidJA2Khf3jfwm9",
+      "quote_token": "USDC",
+      "quote_token_vault": "8KKZ4LR5Q1T1SVQ2DaCfZ83NHr56152A5NMhDDVCCdVt"
+    },
+    {
+      "enabled": true,
+      "liquidity_group": "SOL_USD",
+      "address": "CwF4aUPjMciM3u9DpxoZyLGVKVxgUgBmxHW32RbtmZNz",
+      "base_token": "wSOL",
+      "base_token_vault": "Ci7SdQuXarM3wKpR16CzL9K7QP75Ln9g8scSeK55Hnb",
+      "quote_token": "USDC",
+      "quote_token_vault": "9mTCgcxmfvNiGDsx3R9vZMd8RzGEvg5y6ssqJCW1ceTh"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "whirlpool_program_id": "",
+  "whirlpools": [
+    {
+      "enabled": false,
+      "liquidity_group": "SOL_USD",
+      "pubkey": "83v8iPyZihDEjDdY8RdZddyZNyUtXngz69Lgo9Kt5d6d",
+      "token_a": "wSOL",
+      "min_token_a_balance": 0.1,
+      "token_b": "USDC",
+      "min_token_b_balance": 10,
+      "tick": 1
+    },
+    {
+      "enabled": false,
+      "liquidity_group": "SOL_USD",
+      "pubkey": "FpCMFDFGYotvufJ7HrFHsWEiiQCGbkLCtwHiDnh7o28Q",
+      "token_a": "wSOL",
+      "min_token_a_balance": 0.1,
+      "token_b": "USDC",
+      "min_token_b_balance": 10,
+      "tick": 2
+    },
+    {
+      "enabled": false,
+      "liquidity_group": "SOL_USD",
+      "pubkey": "Czfq3xZZDmsdGdUyrNLtRhGc47cXcZtLG4crryfu44zE",
+      "token_a": "wSOL",
+      "min_token_a_balance": 0.1,
+      "token_b": "USDC",
+      "min_token_b_balance": 10,
+      "tick": 4
+    },
+    {
+      "enabled": false,
+      "liquidity_group": "SOL_USD",
+      "pubkey": "7qbRF6YsyGuLUVs6Y1q64bdVrfe4ZcUUz1JRdoVNUJnm",
+      "token_a": "wSOL",
+      "min_token_a_balance": 0.1,
+      "token_b": "USDC",
+      "min_token_b_balance": 10,
+      "tick": 8
+    },
+    {
+      "enabled": false,
+      "liquidity_group": "SOL_USD",
+      "pubkey": "21gTfxAnhUDjJGZJDkTXctGFKT8TeiXx6pN1CEg9K1uW",
+      "token_a": "wSOL",
+      "min_token_a_balance": 0.1,
+      "token_b": "USDC",
+      "min_token_b_balance": 10,
+      "tick": 16
+    },
+    {
+      "enabled": false,
+      "liquidity_group": "SOL_USD",
+      "pubkey": "HJPjoWUrhoZzkNfRpHuieeFk9WcZWjwy6PBjZ81ngndJ",
+      "token_a": "wSOL",
+      "min_token_a_balance": 0.1,
+      "token_b": "USDC",
+      "min_token_b_balance": 10,
+      "tick": 64
+    },
+    {
+      "enabled": false,
+      "liquidity_group": "SOL_USD",
+      "pubkey": "DFVTutNYXD8z4T5cRdgpso1G3sZqQvMHWpW2N99E4DvE",
+      "token_a": "wSOL",
+      "min_token_a_balance": 0.1,
+      "token_b": "USDC",
+      "min_token_b_balance": 10,
+      "tick": 128
+    },
+    {
+      "enabled": false,
+      "liquidity_group": "SOL_USD",
+      "pubkey": "FwewVm8u6tFPGewAyHmWAqad9hmF7mvqxK4mJ7iNqqGC",
+      "token_a": "wSOL",
+      "min_token_a_balance": 0.1,
+      "token_b": "USDT",
+      "min_token_b_balance": 10,
+      "tick": 2
+    },
+    {
+      "enabled": false,
+      "liquidity_group": "SOL_USD",
+      "pubkey": "B6LL9aCWVuo1tTcJoYvCTDqYrq1vjMfci8uHxsm4UxTR",
+      "token_a": "wSOL",
+      "min_token_a_balance": 0.1,
+      "token_b": "USDT",
+      "min_token_b_balance": 10,
+      "tick": 8
+    }
+  ]
+}

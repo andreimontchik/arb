@@ -1,0 +1,32 @@
+[package]
+name = "trader"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+solana-sdk = { workspace = true }
+solana-rpc-client = { workspace = true }
+solana-client = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+serde_derive = { workspace = true }
+thiserror = { workspace = true }
+tempfile = { workspace = true }
+log = { workspace = true }
+env_logger = { workspace = true }
+memmap2 = { workspace = true }
+signal-hook = { workspace = true }
+ctrlc = { workspace = true }
+helius = { workspace = true }
+tokio =  { workspace = true }
+anyhow = { workspace = true }
+common = {path = "../common"}
+
+[dev-dependencies]
+chrono = {workspace = true}
+
+[[bin]]
+name = "trader"
+path = "src/main.rs"

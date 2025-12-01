@@ -1,0 +1,4 @@
+{
+    "keypair": "/home/sol/.keys/arb_wallet.json",
+    "token_accounts": "/home/sol/src/research/config/mainnet/token_accounts.json"
+}
